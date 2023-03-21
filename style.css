@@ -27,15 +27,30 @@ li{
     font-weight: 400;
     color: #373737 ;
 }
+.Cor-li1:hover{
+    color:#81A5C4 ;
+}
+.Cor-li2:hover{
+    color:#F7DA47 ;
+}
+.Cor-li3:hover{
+    color: #C1C1C1;
+}
+.Cor-li4:hover{
+    color:#272d33 ;
+}
+.Cor-li5:hover{
+    color: #b50012;
+}
+.Cor-li6:hover{
+    color: #b55af1 ;
+}
+
 
 #logo {
     height: 30px;
 
 }
-
-
-
-
 
 
 /* PARTE INFERIOR*/
@@ -76,13 +91,32 @@ section {
 }
 
 .button {
-    background-color: #0071e3;
+    width: 167px;
+    background: linear-gradient(to right,#272d33, #C1C1C1);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
+    outline: none;
     border-radius: 15px;
+    cursor: pointer;
+    transition: all 3s ease-in-out;
 
 
+
+
+}
+.button img{
+    width: 30px;
+    display: none;
+}
+.button:hover{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.button:hover img{
+display: block;
 }
 
 .escolha-cor {
@@ -99,6 +133,17 @@ section {
     background-color: #81a5c4;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
+}
+
+.social-links{
+    display: flex;
+    
+    align-items: center;
+}
+.social-links img{
+    height: 20px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -137,8 +182,19 @@ section {
     
 }
 
-#Iphone {
+.Iphone {
     width: 350px;
     margin-top: 27px;
     z-index: 99;
+
+    animation: moverIphone 2s infinite alternate ease-in-out;
+
+
+}
+
+
+@keyframes moverIphone {
+    from {
+      transform: translate(-2%, -2%) rotate(-5deg) ;
+    }
 }

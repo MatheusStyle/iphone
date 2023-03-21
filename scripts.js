@@ -7,7 +7,10 @@
         circulo.style.background = cor
     }
 
-    function trocaImg(){
-        let imgIphone = document.querySelector("#Iphone")
+    function trocaImagem(imagem){
+        let imgIphone = document.querySelector(".Iphone")
+        
+        imgIphone.src = imagem
 
     }
+    

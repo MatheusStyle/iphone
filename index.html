@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">  
-    <title>Iphone - Apple (Brasil)</title>
+    <link rel="stylesheet" href="style.css"> 
     <script src="./scripts.js"></script>
-</head>
+    <title>Iphone - Apple (Brasil)</title>
+
+
+</head> 
+   
+   
 
 <body>
     <nav>
         <img id="logo" src="./assets/logo.png">
 
         <ul>
-            <li>Mac</li>
-            <li>iphone</li>
-            <li>iPad</li>
-            <li>Watch</li>
-            <li>Airpods</li>
-            <li>Acessórios</li>
-            <li>Suporte</li>
+            <li class="Cor-li1">Mac</li>
+            <li class="Cor-li2">iphone</li>
+            <li class="Cor-li3">iPad</li>
+            <li class="Cor-li4">Watch</li>
+            <li class="Cor-li5">Airpods</li>
+            <li class="Cor-li6">Acessórios</li>
+            <li class="Cor-li7">Suporte</li>
         </ul>
 
     </nav>
@@ -36,24 +40,31 @@
 
             <h3 class="preco">A partir de R$ 633,25/mês ou R$ 7.599*</h3>
 
-            <button class="button">Comprar</button>
+            <button class="button"> Comprar  <img  src="./assets/arrow.png " alt="seta">     </button>
 
             <P class="escolha-cor">Escolha sua cor:</P>
 
             <div>
-                <button onclick="trocaCor('#81A5C4')" class="azul troca-cor"> </button>
-                <button onclick="trocaCor('#F7DA47'); trocaImg('')" class="amarelo troca-cor"> </button>
-                <button onclick="trocaCor('#c1c1c1')" class="branco troca-cor"> </button>
-                <button onclick="trocaCor('#272d33')" class="preto  troca-cor "> </button>
-                <button onclick="trocaCor('#b50012')" class="vermelho  troca-cor"> </button>
-                <button onclick="trocaCor('#b55af1')" class="roxo  troca-cor"> </button>
+                <button onclick="trocaCor('#81A5C4'); trocaImagem('./assets/iphone-azul.png' )"class="azul troca-cor"> </button>
+                <button onclick="trocaCor('#F7DA47'); trocaImagem('./assets/iphone-amarelo.png')"class="amarelo troca-cor"> </button>
+                <button onclick="trocaCor('#c1c1c1'); trocaImagem('./assets/iphone-branco.png')"class="branco troca-cor"> </button>
+                <button onclick="trocaCor('#272d33'); trocaImagem('./assets/iphone-preto.png')"class="preto  troca-cor "> </button>
+                <button onclick="trocaCor('#b50012'); trocaImagem('./assets/iphone-vermelho.png')"class="vermelho  troca-cor"> </button>
+                <button onclick="trocaCor('#b55af1'); trocaImagem('./assets/iphone-roxo.png')"class="roxo  troca-cor"> </button>
+            </div>
+
+            <div class="social-links">
+                <img src="./assets/fb.png" alt="Faceboock">
+                <img src="./assets/ig.png" alt="Instagram">
+                <img src="./assets/tw.png" alt="Twiter">
             </div>
 
         </div>
 
 
         <div class="circulo"></div>
-        <img id="Iphone" src="./assets/iphone-azul.png" alt="">
+
+        <img class="Iphone" src="./assets/iphone-azul.png" alt="img-Iphone">
     </section>
 
 
